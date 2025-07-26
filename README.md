@@ -1,8 +1,8 @@
 # 🐧 TerMux Penguins Project
 
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/terumux-penguins?style=social)](https://github.com/yourusername/terumux-penguins)
-[![Made with Love](https://img.shields.io/badge/Made_with-❤️-ff69b4)](https://github.com/yourusername)
+[![GitHub Stars](https://img.shields.io/github/stars/JSCatLower/my_syte?style=social)](https://github.com/yourusername/terumux-penguins)
+[![Made with Love](https://img.shields.io/badge/Made_with-❤️-ff69b4)](https://github.com/JSCatLower)
 
 > Самый уютный проект про Linux-пингвинов! 🐧
 
