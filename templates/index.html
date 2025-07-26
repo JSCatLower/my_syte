@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Мой Termux-сайт</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</head>
+<body>
+    <h1>Привет из Termux! 🐧</h1>
+    
+    <p>Это мой первый сайт на Flask!</p>
+    
+    <button class="button" onclick="alert('Кнопка работает! ✅')">
+        Нажми меня
+    </button>
+
+    <button class="button" onclick="waddle()">Я пингвинья кнопка!
+    </button>
+
+    <br>
+    <button class="red-button">
+    <a href="https://youtube.com" style="text-decoration: none; color: inherit;" target="_blank">
+        Ютуб внутри кнопки 📺
+    </a>
+    </button>
+
+    <br>
+
+    <img src="{{ url_for('static', filename='tux.png') }}" alt="Tux the Penguin">
+    
+    <div style="margin-top: 30px">
+        <pre>
+    .--.
+   |o_o |
+   |:_/ |
+  //   \ \
+ (|     | )
+/'\_   _/`\
+\___)=(___/
+       
+        </pre>
+    </div>
+
+    <div style="margin-top: 30px;">
+        <pre>
+  _____
+ /     \
+| () () |
+ \  ^  /
+  |||||
+        </pre>
+    </div>
+</body>
+</html>
