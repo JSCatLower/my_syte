@@ -6,9 +6,6 @@
 
 > Самый уютный проект про Linux-пингвинов! 🐧
 
-<div align="center">
-  <img src="https://example.com/path-to-your-image.png" width="300" alt="TerMux Penguin">
-</div>
 
 ## ✨ Особенности
 
