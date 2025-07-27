@@ -25,7 +25,7 @@
 
 1. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/JSCatLower/my_site.git
+git clone https://github.com/JSCatLower/my_syte.git
 ```
 
 2. Откройте `index.html` в браузере:
