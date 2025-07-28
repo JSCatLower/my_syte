@@ -1,20 +1,30 @@
 body {
     background: black; /* Тёмный фон как в Termux */
-    color: #f8f8f2;     /* Светлый текст */
+    color: #33ff33;     /* Светлый текст */
     font-family: 'Courier New', monospace;
     padding: 20px;
     text-align: center;
     transition: background 0.3s;
 }
 
-.button {
-    background: #bd93f9; /* Фиолетовая кнопка */
-    color: #282a36;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
+/* Стиль для ВСЕХ кнопок */  
+.button {  
+    background: #3a3a3a;  /* Тёмно-серый фон */  
+    color: #33ff33;       /* Ярко-зелёный текст */  
+    border: 1px solid #33ff33;  
+    padding: 8px 15px;  
+    border-radius: 4px;  
+    font-family: 'Courier New', monospace;  
+    cursor: pointer;  
+    transition: all 0.3s;  
+}  
+
+/* Стиль при наведении */  
+.button:hover {  
+    background: #33ff33;  
+    color: black; 
+    box-shadow: 0 0 10px #33ff33;  
+}  
 
 .red-button {
   background-color: #ff4444; /* Красный цвет */
@@ -31,11 +41,13 @@ body {
 
 .red-button:hover {
   background-color: #ff0000; /* Более яркий красный при наведении */
-  transform: translateY(-2px); /* Эффект "поднятия" */
+  transform: translateY(1px); /* Эффект "поднятия" */
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Усиленная тень */
 }
 
 .red-button:active {
   transform: translateY(1px); /* Эффект нажатия */
+  transform: translateY(1px)
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Уменьшенная тень */
 }
+
